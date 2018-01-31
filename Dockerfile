@@ -26,9 +26,9 @@ USER nobody
 WORKDIR /exo
 ADD *.m  ./
 ADD GBM6118_qualite_images_labo_2018.ipynb .
-ENTRYPOINT ["jupyter", "notebook", "--no-browser"]
+#ENTRYPOINT ["jupyter", "notebook", "--no-browser"]
 
-CMD ["--port", "8080", "--ip=*"]
+#CMD ["--port", "8080", "--ip=*"]
 
 
 
